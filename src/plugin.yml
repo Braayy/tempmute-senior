@@ -1,0 +1,12 @@
+name: 'TempMute'
+main: 'braayy.tempmute.TempmutePlugin'
+version: '1.0'
+author: 'Braayy'
+
+commands:
+  tempmute:
+    usage: '/tempmute <player> <amount-in-seconds>'
+    description: 'Temporarily mute a player.'
+  unmute:
+    usage: '/unmute <player>'
+    description: 'Unmute a player.'

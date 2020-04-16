@@ -1,0 +1,19 @@
+tempmute-permission: 'tempmuteplugin.tempmute'
+
+messages:
+  no-permission: '&cYou dont have permission'
+  usage-tempmute: '&cUsage: /tempmute <player> <amount-in-minutes>'
+  usage-umute: '&cUsage: /unmute <player>'
+  not-exists: '&c{player} never joined this server'
+  not-number: '&cThe <amount-in-minutes> needs to be a number'
+  error-unmute: '&c{player} is not muted!'
+  success-tempmute: '&aYou have tempmuted {player} for {amount} minute(s)'
+  success-unmute: '&aYou have unmuted {player}'
+  muted: '&cYou are muted for {minutes}m{seconds}s'
+
+database:
+  host: ''
+  user: ''
+  pass: ''
+  port: 3306
+  database: ''
